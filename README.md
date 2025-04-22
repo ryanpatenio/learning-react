@@ -13,6 +13,7 @@ Focus: Get comfortable with React core concepts using plain JavaScript.
 - [✅] Setup React using Vite and Yarn
 - [✅] JSX and rendering elements
 - [✅] Components (Functional)
+- [✅] Router Dom (v.7)
 - [ ] Props and State
 - [ ] Event handling
 - [ ] Lists and keys
@@ -75,7 +76,9 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 # Day 1
 -Set up React using Vite using this "yarn create vite "filename" --templates=react | ts
 -Set up PORT and add dotenv in file Note! in the .env the name PORT=3000 it must no whitespace
-
+# Dat 2
+-creating components and folder structure for layout [rootLayout,adminLayout]
+-add react-router-dom for navbar and use Navlink and useLocation for static dropdown &custom css for active link
 
 ---
 
