@@ -63,7 +63,7 @@ Focus: Apply what I’ve learned by building small, meaningful projects.
 - Vite
 - Yarn
 - TypeScript
-- Bootstrap (or Tailwind)
+- Bootstrap
 - Git + GitHub
 
 ---
@@ -74,11 +74,11 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 
 
 # Day 1
--Set up React using Vite using this "yarn create vite "filename" --templates=react | ts
--Set up PORT and add dotenv in file Note! in the .env the name PORT=3000 it must no whitespace
-# Dat 2
--creating components and folder structure for layout [rootLayout,adminLayout]
--add react-router-dom for navbar and use Navlink and useLocation for static dropdown &custom css for active link
+- Set up React using Vite using this "yarn create vite "filename" --templates=react | ts
+- Set up PORT and add dotenv in file Note! in the .env the name PORT=3000 it must no whitespace
+# Day 2
+- creating components and folder structure for layout [rootLayout,adminLayout]
+- add react-router-dom for navbar and use Navlink and useLocation for static dropdown &custom css for active link
 
 ---
 
