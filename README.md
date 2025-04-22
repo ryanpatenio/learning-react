@@ -9,10 +9,10 @@ Welcome to my React learning journey! This repository is where I document everyt
 ### ✅ Phase 1: Learn React (using Vite + Yarn)
 Focus: Get comfortable with React core concepts using plain JavaScript.
 
-- [ ] What is React?
-- [ ] Setup React using Vite and Yarn
-- [ ] JSX and rendering elements
-- [ ] Components (Functional)
+- [✅] What is React?
+- [✅] Setup React using Vite and Yarn
+- [✅] JSX and rendering elements
+- [✅] Components (Functional)
 - [ ] Props and State
 - [ ] Event handling
 - [ ] Lists and keys
