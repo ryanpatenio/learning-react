@@ -15,6 +15,7 @@ Focus: Get comfortable with React core concepts using plain JavaScript.
 - [✅] Components (Functional)
 - [✅] Router Dom (v.7)
 - [✅] Dynamic & Nested Routes
+- [✅] React Router Outlet Layout
 - [ ] Props and State
 - [ ] Event handling
 - [ ] Lists and keys
@@ -81,6 +82,7 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 - creating components and folder structure for layout [rootLayout,adminLayout]
 - add react-router-dom for navbar and use Navlink and useLocation for static dropdown &custom css for active link
 - to add param or ID in URL just use Navlink to = `${car.id}` inside the loop
+- adding react router outlet to use diff layout in you diff routes
 
 ---
 
@@ -92,5 +94,6 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 - Navlink = use for url routing with a built in isActive that can be use in nav-link active
 - useLocation = use in my static navbar dropdown
 - Routes - route = i learned on how to render element base on the path or the URL
+- by using React router Outlet you can use Diff Layout in your diff routes by putting in the Route Element
 
 Thanks for checking it out!
