@@ -70,9 +70,11 @@ Focus: Apply what I’ve learned by building small, meaningful projects.
 ## 🧠 Notes & Learnings
 
 I'll be adding my notes, challenges, and what I’ve learned along the way inside separate folders or markdown files.
+
+
 # Day 1
-**Set up React using Vite using this "yarn create vite "filename" --templates=react | ts
-**Set up PORT and add dotenv in file Note! in the .env the name PORT=3000 it must no whitespace
+-Set up React using Vite using this "yarn create vite "filename" --templates=react | ts
+-Set up PORT and add dotenv in file Note! in the .env the name PORT=3000 it must no whitespace
 
 
 ---
