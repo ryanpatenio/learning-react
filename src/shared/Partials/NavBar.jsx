@@ -8,11 +8,11 @@ const NavBar = () => {
     
     const navLinks = [
         { path: '/', label: 'Home' },
-        { path: '/about', label: 'About' },
-        { path: '/contact', label: 'Contact' },
-        
+        { path: '/About', label: 'About' },
+        { path: '/Contact', label: 'Contact' },    
       ];
-    const location = useLocation();
+      
+    const location = useLocation(); // for static navigation
     const dropdownPath = ['/action','/another','/something'];
 
     const isDropdownActive = dropdownPath.includes(location.pathname);
