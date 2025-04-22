@@ -1,5 +1,6 @@
 .navbar-dark .navbar-nav .custom-active {
     background-color: #20c997;
-    border-radius: 4px; /* optional rounded corners */
-    color: white !important; /* optional text color */
+    border-radius: 4px; 
+    color: white !important; 
+   
   }
