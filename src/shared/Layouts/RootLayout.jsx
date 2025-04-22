@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../Partials/Header'
 import Footer from '../Partials/Footer'
+import NavBar from '../Partials/NavBar'
 
 const RootLayout = ({children}) => {
   return (
     <div className='main-root'>
-        <Header />
+       <NavBar />
             {children}
         <Footer />
     </div>
