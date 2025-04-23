@@ -16,6 +16,8 @@ Focus: Get comfortable with React core concepts using plain JavaScript.
 - [✅] Router Dom (v.7)
 - [✅] Dynamic & Nested Routes
 - [✅] React Router Outlet Layout
+- [✅] React Router useOutletContext
+- [✅] useState and useRef
 - [ ] Props and State
 - [ ] Event handling
 - [ ] Lists and keys
@@ -85,7 +87,7 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 - adding react router outlet to use diff layout in you diff routes
 # Day 3
 - using outletContext
-
+- using useState and useRef
 
 ---
 
@@ -101,5 +103,7 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 
 # Day 3
 - using useOutlet Context first put a value where you use the outlet from react-router dom put a context there {{test : "sample"}} just like that
+- use state and useRef the useState which use for example dynamic data when an event click etc
+- the useRef is just like the document.querySelector of vanilla JS you just put a reference on that element then you can do what ever you want after that like disabled it or etc.
 
 Thanks for checking it out!
