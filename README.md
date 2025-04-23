@@ -88,7 +88,8 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 # Day 3
 - using outletContext
 - using useState and useRef
-
+- using useEffect
+- using useLayoutEffect
 ---
 
 ## 🚧 Work in Progress...
@@ -105,5 +106,8 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 - using useOutlet Context first put a value where you use the outlet from react-router dom put a context there {{test : "sample"}} just like that
 - use state and useRef the useState which use for example dynamic data when an event click etc
 - the useRef is just like the document.querySelector of vanilla JS you just put a reference on that element then you can do what ever you want after that like disabled it or etc.
+- by using useEffect the [] is the dependency which update changes if that state change
+- using timer or Timeout inside useEffect you must put clearTimeout to clear and to avoid re render the return inside the timeout function
+- by using useLayoutEffect it will renders first than the useEffect it is use for to manipulate DOM before rendering
 
 Thanks for checking it out!
