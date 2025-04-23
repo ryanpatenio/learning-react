@@ -83,6 +83,9 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 - add react-router-dom for navbar and use Navlink and useLocation for static dropdown &custom css for active link
 - to add param or ID in URL just use Navlink to = `${car.id}` inside the loop
 - adding react router outlet to use diff layout in you diff routes
+# Day 3
+- using outletContext
+
 
 ---
 
@@ -95,5 +98,8 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 - useLocation = use in my static navbar dropdown
 - Routes - route = i learned on how to render element base on the path or the URL
 - by using React router Outlet you can use Diff Layout in your diff routes by putting in the Route Element
+
+# Day 3
+- using useOutlet Context first put a value where you use the outlet from react-router dom put a context there {{test : "sample"}} just like that
 
 Thanks for checking it out!
