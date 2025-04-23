@@ -8,7 +8,7 @@ const RootLayout = () => {
   return (
     <div className='main-root'>
        <NavBar />
-            <Outlet context={{test : "Lala"}} />
+            <Outlet />
         <Footer />
     </div>
   )
