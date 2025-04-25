@@ -90,6 +90,10 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 - using useState and useRef
 - using useEffect
 - using useLayoutEffect
+# Day 4
+- using useMemo and useCallback
+# Day 5
+
 ---
 
 ## 🚧 Work in Progress...
@@ -109,5 +113,11 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 - by using useEffect the [] is the dependency which update changes if that state change
 - using timer or Timeout inside useEffect you must put clearTimeout to clear and to avoid re render the return inside the timeout function
 - by using useLayoutEffect it will renders first than the useEffect it is use for to manipulate DOM before rendering
+
+# Day 4
+- by using useMemo it memoize the cache the logic inside of it and it is recommended to use when computing in a large scale of data example filtering data computing totals of orders
+- by using useCallback it is the same as useMemo it caching the data but this is use for function only when this function is dynamically change when passing it into child components to avoid rendering again every action happen in parent, this will be rendering if the function is changing
+
+# Day 5
 
 Thanks for checking it out!
