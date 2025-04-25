@@ -21,11 +21,11 @@ const Contact = () => {
   },[]);
 
   //without use of useCallback function every action happen it will render again
-  const compute = () => {
-    console.log("compute: Computing");
-    test();
-    return 100;
-  }
+  // const compute = () => {
+  //   console.log("compute: Computing");
+  //   test();
+  //   return 100;
+  // }
 
  const memoizeCompute = useMemo(() =>{
   test()
@@ -39,7 +39,7 @@ const Contact = () => {
       This is Contact Page
 
       <h2 className=''>count : <strong>{count}</strong></h2>
-       <h3>{compute()}</h3>
+       <h3></h3>
        <h2>{memoizeCompute}</h2>
        <button onClick={handleClick} className='btn btn-primary w-25 '> Increment</button>
        {/* <button onClick={handleClick2} className='btn btn-primary w-25 mt-2'> Increment UseEffect</button> */}
