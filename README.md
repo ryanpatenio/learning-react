@@ -93,6 +93,8 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 # Day 4
 - using useMemo and useCallback
 # Day 5
+- by using bootstrap flex-grow: when the value is 1 and another value is 2 when the space is 300px only the value of 1 received a 100px then the value of 2 receives 200px
+- using react memo to avoid rendering child component
 
 ---
 
@@ -119,5 +121,6 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 - by using useCallback it is the same as useMemo it caching the data but this is use for function only when this function is dynamically change when passing it into child components to avoid rendering again every action happen in parent, this will be rendering if the function is changing
 
 # Day 5
+- by using react.memo will prevent rendering the child component every action happen in the parent and the react memo has a return function which is prev and next which you can use
 
 Thanks for checking it out!
