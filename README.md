@@ -95,6 +95,9 @@ I'll be adding my notes, challenges, and what I’ve learned along the way insid
 # Day 5
 - by using bootstrap flex-grow: when the value is 1 and another value is 2 when the space is 300px only the value of 1 received a 100px then the value of 2 receives 200px
 - using react memo to avoid rendering child component
+# Day 6
+- using custom hooks
+- using custom hooks use Effects and Pagination
 
 ---
 
@@ -122,5 +125,9 @@ This is a living document, and I’ll keep updating it as I grow as a React + Ty
 
 # Day 5
 - by using react.memo will prevent rendering the child component every action happen in the parent and the react memo has a return function which is prev and next which you can use
+
+# Day 6
+- by creating custom hooks it is a reusable hooks where you can use globally it just like in codeigniter where you custom helpers 
+- example using useFetch where you pass a parameters on it then it will returns objects then you destructuring in any pages or components you want
 
 Thanks for checking it out!
